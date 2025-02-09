@@ -16,8 +16,7 @@ class GenerateToken:
                 'user_id': user.id,
                 'username': user.first_name,
                 'exp': datetime.datetime.now(tz=(pytz.timezone(settings.TIME_ZONE))) + datetime.timedelta(days=1),
-                'iat': datetime.datetime.now(tz=(pytz.timezone(settings.TIME_ZONE)))
-
+                # 'iat': datetime.datetime.now(tz=(pytz.timezone(settings.TIME_ZONE)))
             }
 
             token = jwt.encode(payload, settings.SECRET_KEY, algorithm='HS256')

@@ -2,7 +2,7 @@ from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 from django.db import models
 
 
-class BaseDataUtils:
+class BaseRepository:
     model_class = None
 
     def __init__(self):

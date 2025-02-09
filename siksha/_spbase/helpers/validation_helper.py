@@ -198,12 +198,3 @@ class Validators:
         if not is_valid or limit < 1:
             limit = settings.DEFAULT_PAGE_LIMIT
         return page_no, limit, True
-
-    def pin_code_validator(pin_code):  # pincode validator
-        if pin_code is None:
-            return False
-        regex = "^[1-9][0-9]{5}$"
-        pin = re.compile(regex)
-        if re.search(pin, pin_code):
-            return True
-        return str(pin_code), False
