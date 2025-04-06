@@ -8,10 +8,10 @@
           <mxGeometry x="40" y="180" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PPMV_HGDCqkAZv2vb4dY-2" value="&lt;b&gt;Subscription&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PPMV_HGDCqkAZv2vb4dY-4" value="validity (days)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="90" width="60" height="80" as="geometry" />
+          <mxGeometry x="250" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PPMV_HGDCqkAZv2vb4dY-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PPMV_HGDCqkAZv2vb4dY-2" target="PPMV_HGDCqkAZv2vb4dY-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -20,10 +20,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PPMV_HGDCqkAZv2vb4dY-7" value="Name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="77.5" width="70" height="70" as="geometry" />
+          <mxGeometry x="355" y="30" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PPMV_HGDCqkAZv2vb4dY-8" value="Price" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="70" width="60" height="40" as="geometry" />
+          <mxGeometry x="460" y="45" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PPMV_HGDCqkAZv2vb4dY-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.858;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPMV_HGDCqkAZv2vb4dY-2" target="PPMV_HGDCqkAZv2vb4dY-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -109,7 +109,7 @@
             <mxPoint x="190" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PPMV_HGDCqkAZv2vb4dY-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PPMV_HGDCqkAZv2vb4dY-2">
+        <mxCell id="PPMV_HGDCqkAZv2vb4dY-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.175;exitY=-0.033;exitDx=0;exitDy=0;entryX=0.25;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="PPMV_HGDCqkAZv2vb4dY-2" target="PPMV_HGDCqkAZv2vb4dY-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="220" as="sourcePoint" />
             <mxPoint x="410" y="170" as="targetPoint" />
